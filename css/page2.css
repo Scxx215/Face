@@ -1,0 +1,156 @@
+body {
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/*整体框架*/
+
+.Whole {
+    width: 100%;
+}
+
+.Whole p {
+    color: #FFFFFF;
+}
+
+
+/*整体框架里面四个子框架*/
+
+.Whole div {
+    width: 96%;
+    margin-top: 1.6rem;
+}
+
+
+/*重新人脸采集*/
+
+.IdCar .FooterBb {
+    margin-top: 1rem;
+    width: 17rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: none;
+    /*background: url(../images/button1.png) no-repeat;*/
+    background-color: rgba(95, 193, 236, 0.85);
+    border-radius: 1rem;
+    background-size: contain;
+    color: #fff;
+    font-size: 1.3rem;
+    outline: none;
+    text-align: center;
+}
+
+.IdCar div img {
+    width: 100%;
+}
+
+.IdCar div {
+    width: 70%;
+    margin: 0.5rem auto;
+}
+
+.IdCars div {
+    width: 38%;
+    margin: 2.5rem auto!important;
+}
+
+
+/*基本信息*/
+
+.ButtonWidth {
+    width: 60%;
+}
+
+.Notice {
+    position: relative;
+}
+
+.Notice .Notice_up {
+    width: 80%;
+    height: 2rem;
+    text-align: left;
+    background: #BAC1D6;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.IdCar p:before {
+    content: url(../images/logo6.png);
+    width: 10px;
+    height: 10px;
+    padding: 0 .5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+
+.IdCar h5 {
+    color: #FFFFFF;
+}
+
+
+/*获取验证码*/
+
+.Notice .Notice_up .ButtonHave {
+    background-color: #39adec;
+    border: none;
+    width: 30%;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.Notice .Notice_up input {
+    height: 2rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.Notice .Notice_up span {
+    width: 70%;
+    color: #FFFFFF;
+    margin-left: 18px;
+}
+
+.Notice img {
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+
+/*两个按钮*/
+
+.footer .FooterBa {
+    margin-top: 1rem;
+    width: 17rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: none;
+    /*background: url(../images/button1.png) no-repeat;*/
+    background-color: rgba(95, 193, 236, 0.85);
+    border-radius: 1rem;
+    background-size: contain;
+    color: #fff;
+    font-size: 1.3rem;
+    outline: none;
+    text-align: center;
+}
+
+.footer .FooterBb {
+    margin-top: 1rem;
+    width: 17rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: none;
+    /*background: url(../images/button2.png) no-repeat;*/
+    background-color: rgba(148, 237, 33, 0.85);
+    background-size: contain;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    outline: none;
+    text-align: center;
+    opacity: 0.5；
+}

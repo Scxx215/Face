@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="css/common/media.css">
+    <link rel="stylesheet" type="text/css" href="css/common/reset.css">
+    <title>Face</title>
+</head>
+
+<body>
+    <!-- 整体框架 -->
+    <div class="Whole flexCol">
+        <!-- 身份证正反面 -->
+        
+        <div class="IdCar flexCol" >
+            <div>
+                <a href="#"><img src="images/ID_a.png"></a>
+            </div>
+            <div>
+                <a href="#"><img src="images/ID_b.png"></a>
+            </div>
+        </div>
+        <!-- 警示语和输入框 -->
+        <div class="Notice flexRow flexCol">
+            <p>身份证信息将通过公安部认证，非本人信息不得通过审核</p>
+            <div class="Notice_up">
+                <img src="images/logo.png">
+                <span>姓名：<input type="text" /></span>
+            </div>
+            <div class="Notice_up">
+              <img src="images/logo2.png">
+                <span>身份证号：<input type="text" /></span>
+            </div>
+            <div class="radiobox flexRow">
+                <input type="checkbox" name="radiobutton" value="radiobutton">
+                <span>我已经阅读并同意<span class="Font">《电子证件服务协议》</span></span>
+            </div>
+        </div>
+        <!-- 两个按钮 -->
+        <div class="footer  flexCol">
+            <button type="button" class="FooterBa">提交</button>
+            <button type="button" class="FooterBb">未携带身份证</button>
+           
+        </div>
+    </div>
+</body>
+
+</html>
